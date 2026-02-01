@@ -53,6 +53,7 @@ class ExtractedJobInfo(BaseModel):
     salary_range: Optional[str] = Field(None, description="Salary information if mentioned")
     job_type: Optional[str] = Field(None, description="Full-time, part-time, contract, etc.")
     application_deadline: Optional[str] = Field(None, description="Application deadline if mentioned")
+    description: Optional[str] = Field(None, description="Formatted job description summary")
 
     confidence_score: float = Field(0.0, ge=0.0, le=1.0, description="AI confidence in extraction")
 

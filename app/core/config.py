@@ -21,8 +21,13 @@ class Settings(BaseSettings):
         "http://localhost:8000",
         "https://hireoo.com",
         "https://hireoo-taupe.vercel.app",
+        "https://hireoo.in",    
         "*"
     ]
+
+    # Gemini Settings
+    GEMINI_API_KEY: str = ""
+    GEMINI_MODEL: str = "gemini-pro"
 
     # OpenAI Settings
     OPENAI_API_KEY: str = ""

@@ -4,7 +4,8 @@ API routes for the AI extraction service.
 
 import time
 import logging
-from fastapi import APIRouter, HTTPException, Depends
+from fastapi import APIRouter, HTTPException, Depends, Request
+
 from typing import Dict, Any
 
 from app.models.extraction import (
@@ -19,12 +20,9 @@ logger = logging.getLogger(__name__)
 router = APIRouter()
 
 
-def get_extraction_service() -> ExtractionService:
+def get_extraction_service(request: Request) -> ExtractionService:
     """Dependency to get the extraction service instance."""
-    # This would normally be injected via dependency injection
-    # For now, we'll create a new instance
-    service = ExtractionService()
-    return service
+    return request.app.state.extraction_service
 
 
 @router.post("/extract", response_model=ExtractionResponse)

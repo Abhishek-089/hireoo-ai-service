@@ -1,0 +1,208 @@
+2026-02-01 19:23:54,384 - app.services.gemini_service - ERROR - Gemini model not initialized
+2026-02-01 19:41:23,239 - app.services.gemini_service - ERROR - Failed to parse Gemini response as JSON: {
+  "job_title": "UI/UX Designer",
+  "company": "Nebel",
+  "location": "Remote (Sweden)",
+  "skills"...
+2026-02-01 19:43:07,077 - app.services.gemini_service - ERROR - Failed to parse Gemini response as JSON: {
+"job_title": "UI/UX Designer",
+"company": "Octet",
+"location": "Bangalore, Ahmedabad, Noida, Indor...
+2026-02-01 19:43:17,018 - app.services.gemini_service - ERROR - Failed to parse Gemini response as JSON: {
+"job_title": "UI/UX Designer (Founding Role)",
+"company": null,
+"location": "Remote",
+"skills": [
+...
+2026-02-01 19:43:22,697 - app.services.gemini_service - ERROR - Failed to parse Gemini response as JSON: {
+"job_title": "UI/UX Designer",
+"company": "Auxy",
+"location": "Pune, India",
+"skills": [
+"UI/UX De...
+2026-02-01 19:43:38,435 - app.services.gemini_service - ERROR - Failed to parse Gemini response as JSON: {
+  "job_title": "UI/UX Designer",
+  "company": null,
+  "location": "Remote",
+  "skills": [
+    "UI/...
+2026-02-01 19:43:53,094 - app.services.gemini_service - ERROR - Failed to parse Gemini response as JSON: {
+"job_title": "UI/UX Designer",
+"company": "Engineersahab",
+"location": "Indore",
+"skills": [
+"UI/U...
+2026-02-01 19:43:57,891 - app.services.gemini_service - ERROR - Failed to parse Gemini response as JSON: {
+"job_title": "Product/ Interaction / UI/UX Designer",
+"company": "Fluent Health",
+"location": null...
+2026-02-01 19:44:09,331 - app.services.gemini_service - ERROR - Failed to parse Gemini response as JSON: {
+  "job_title": "UI/UX Designer",
+  "company": "TechStaunch Software Solutions Pvt. Ltd.",
+  "locat...
+2026-02-01 19:50:14,857 - app.services.gemini_service - ERROR - Failed to parse Gemini response as JSON: {
+  "job_title": "UI/UX Designer",
+  "company": "Hyperthinksys",
+  "location": "Qatar",
+  "skills": ...
+2026-02-01 19:50:15,959 - app.services.gemini_service - ERROR - Gemini extraction failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 44.231355099s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 44
+}
+]
+2026-02-01 19:50:30,349 - app.services.gemini_service - ERROR - Gemini extraction failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 29.830447536s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 29
+}
+]
+2026-02-01 19:50:41,343 - app.services.gemini_service - ERROR - Gemini extraction failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 18.838399334s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 18
+}
+]
+2026-02-01 19:50:42,358 - app.services.gemini_service - ERROR - Gemini extraction failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 17.83493527s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 17
+}
+]
+2026-02-01 19:50:53,821 - app.services.gemini_service - ERROR - Gemini extraction failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 6.376104619s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 6
+}
+]
+2026-02-01 19:51:33,115 - app.services.gemini_service - ERROR - Gemini extraction failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 27.067173762s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 27
+}
+]
+2026-02-01 19:51:33,704 - app.services.gemini_service - ERROR - Gemini extraction failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 26.47611122s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 26
+}
+]

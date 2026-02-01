@@ -1,0 +1,374 @@
+2026-02-01 19:19:04,019 - app.core.logging - INFO - Logging configured with level: INFO
+2026-02-01 19:19:04,023 - app.main - INFO - Starting Hireoo AI Extraction Service
+2026-02-01 19:19:04,023 - app.services.extraction_service - INFO - Initializing extraction service...
+2026-02-01 19:19:04,023 - app.services.gemini_service - INFO - Gemini service initialized with model: gemini-flash-latest
+2026-02-01 19:19:04,023 - app.services.extraction_service - INFO - Extraction service initialized
+2026-02-01 19:19:04,023 - app.main - INFO - AI Extraction Service started successfully
+2026-02-01 19:23:54,381 - app.api.v1.routes - INFO - Processing extraction request for 14 chars of HTML
+2026-02-01 19:23:54,382 - app.services.extraction_service - INFO - Starting job information extraction
+2026-02-01 19:23:54,384 - app.utils.html_cleaner - WARNING - Extracted text too short or empty
+2026-02-01 19:23:54,384 - app.services.gemini_service - ERROR - Gemini model not initialized
+2026-02-01 19:23:54,389 - app.services.extraction_service - INFO - Job extraction completed in 0.01 seconds
+2026-02-01 19:24:36,683 - app.main - INFO - Shutting down AI Extraction Service
+2026-02-01 19:24:36,684 - app.services.extraction_service - INFO - Extraction service cleaned up
+2026-02-01 19:25:00,106 - app.core.logging - INFO - Logging configured with level: INFO
+2026-02-01 19:25:00,109 - app.main - INFO - Starting Hireoo AI Extraction Service
+2026-02-01 19:25:00,109 - app.services.extraction_service - INFO - Initializing extraction service...
+2026-02-01 19:25:00,109 - app.services.gemini_service - INFO - Gemini service initialized with model: gemini-flash-latest
+2026-02-01 19:25:00,109 - app.services.extraction_service - INFO - Extraction service initialized
+2026-02-01 19:25:00,109 - app.main - INFO - AI Extraction Service started successfully
+2026-02-01 19:26:04,699 - app.main - INFO - Shutting down AI Extraction Service
+2026-02-01 19:26:04,704 - app.services.extraction_service - INFO - Extraction service cleaned up
+2026-02-01 19:26:06,113 - app.core.logging - INFO - Logging configured with level: INFO
+2026-02-01 19:26:06,116 - app.main - INFO - Starting Hireoo AI Extraction Service
+2026-02-01 19:26:06,116 - app.services.extraction_service - INFO - Initializing extraction service...
+2026-02-01 19:26:06,116 - app.services.gemini_service - INFO - Gemini service initialized with model: gemini-flash-latest
+2026-02-01 19:26:06,116 - app.services.extraction_service - INFO - Extraction service initialized
+2026-02-01 19:26:06,116 - app.main - INFO - AI Extraction Service started successfully
+2026-02-01 19:26:23,813 - app.api.v1.routes - INFO - Processing extraction request for 14 chars of HTML
+2026-02-01 19:26:23,813 - app.services.extraction_service - INFO - Starting job information extraction
+2026-02-01 19:26:23,814 - app.utils.html_cleaner - WARNING - Extracted text too short or empty
+2026-02-01 19:26:27,969 - app.services.extraction_service - INFO - Job extraction completed in 4.16 seconds
+2026-02-01 19:34:15,603 - app.api.v1.routes - INFO - Processing extraction request for 11 chars of HTML
+2026-02-01 19:34:15,605 - app.services.extraction_service - INFO - Starting job information extraction
+2026-02-01 19:34:15,611 - app.utils.html_cleaner - WARNING - Extracted text too short or empty
+2026-02-01 19:34:19,829 - app.services.extraction_service - INFO - Job extraction completed in 4.22 seconds
+2026-02-01 19:34:19,869 - app.api.v1.routes - INFO - Processing extraction request for 11 chars of HTML
+2026-02-01 19:34:19,869 - app.services.extraction_service - INFO - Starting job information extraction
+2026-02-01 19:34:19,870 - app.utils.html_cleaner - WARNING - Extracted text too short or empty
+2026-02-01 19:34:24,949 - app.services.extraction_service - INFO - Job extraction completed in 5.08 seconds
+2026-02-01 19:34:24,966 - app.api.v1.routes - INFO - Processing extraction request for 11 chars of HTML
+2026-02-01 19:34:24,966 - app.services.extraction_service - INFO - Starting job information extraction
+2026-02-01 19:34:24,966 - app.utils.html_cleaner - WARNING - Extracted text too short or empty
+2026-02-01 19:34:29,214 - app.services.extraction_service - INFO - Job extraction completed in 4.25 seconds
+2026-02-01 19:41:13,007 - app.api.v1.routes - INFO - Processing extraction request for 11 chars of HTML
+2026-02-01 19:41:13,010 - app.services.extraction_service - INFO - Starting job information extraction
+2026-02-01 19:41:13,013 - app.utils.html_cleaner - WARNING - Extracted text too short or empty
+2026-02-01 19:41:18,244 - app.services.extraction_service - INFO - Job extraction completed in 5.23 seconds
+2026-02-01 19:41:18,266 - app.api.v1.routes - INFO - Processing extraction request for 11 chars of HTML
+2026-02-01 19:41:18,266 - app.services.extraction_service - INFO - Starting job information extraction
+2026-02-01 19:41:18,267 - app.utils.html_cleaner - WARNING - Extracted text too short or empty
+2026-02-01 19:41:23,239 - app.services.gemini_service - ERROR - Failed to parse Gemini response as JSON: {
+  "job_title": "UI/UX Designer",
+  "company": "Nebel",
+  "location": "Remote (Sweden)",
+  "skills"...
+2026-02-01 19:41:23,317 - app.services.extraction_service - INFO - Job extraction completed in 5.05 seconds
+2026-02-01 19:41:23,361 - app.api.v1.routes - INFO - Processing extraction request for 11 chars of HTML
+2026-02-01 19:41:23,361 - app.services.extraction_service - INFO - Starting job information extraction
+2026-02-01 19:41:23,362 - app.utils.html_cleaner - WARNING - Extracted text too short or empty
+2026-02-01 19:41:28,090 - app.services.extraction_service - INFO - Job extraction completed in 4.73 seconds
+2026-02-01 19:43:01,793 - app.api.v1.routes - INFO - Processing extraction request for 11 chars of HTML
+2026-02-01 19:43:01,797 - app.services.extraction_service - INFO - Starting job information extraction
+2026-02-01 19:43:01,800 - app.utils.html_cleaner - WARNING - Extracted text too short or empty
+2026-02-01 19:43:07,077 - app.services.gemini_service - ERROR - Failed to parse Gemini response as JSON: {
+"job_title": "UI/UX Designer",
+"company": "Octet",
+"location": "Bangalore, Ahmedabad, Noida, Indor...
+2026-02-01 19:43:07,095 - app.services.extraction_service - INFO - Job extraction completed in 5.30 seconds
+2026-02-01 19:43:12,184 - app.api.v1.routes - INFO - Processing extraction request for 11 chars of HTML
+2026-02-01 19:43:12,184 - app.services.extraction_service - INFO - Starting job information extraction
+2026-02-01 19:43:12,186 - app.utils.html_cleaner - WARNING - Extracted text too short or empty
+2026-02-01 19:43:17,018 - app.services.gemini_service - ERROR - Failed to parse Gemini response as JSON: {
+"job_title": "UI/UX Designer (Founding Role)",
+"company": null,
+"location": "Remote",
+"skills": [
+...
+2026-02-01 19:43:17,020 - app.services.extraction_service - INFO - Job extraction completed in 4.84 seconds
+2026-02-01 19:43:17,051 - app.api.v1.routes - INFO - Processing extraction request for 11 chars of HTML
+2026-02-01 19:43:17,051 - app.services.extraction_service - INFO - Starting job information extraction
+2026-02-01 19:43:17,051 - app.utils.html_cleaner - WARNING - Extracted text too short or empty
+2026-02-01 19:43:22,697 - app.services.gemini_service - ERROR - Failed to parse Gemini response as JSON: {
+"job_title": "UI/UX Designer",
+"company": "Auxy",
+"location": "Pune, India",
+"skills": [
+"UI/UX De...
+2026-02-01 19:43:22,699 - app.services.extraction_service - INFO - Job extraction completed in 5.65 seconds
+2026-02-01 19:43:33,621 - app.api.v1.routes - INFO - Processing extraction request for 11 chars of HTML
+2026-02-01 19:43:33,622 - app.services.extraction_service - INFO - Starting job information extraction
+2026-02-01 19:43:33,623 - app.utils.html_cleaner - WARNING - Extracted text too short or empty
+2026-02-01 19:43:38,435 - app.services.gemini_service - ERROR - Failed to parse Gemini response as JSON: {
+  "job_title": "UI/UX Designer",
+  "company": null,
+  "location": "Remote",
+  "skills": [
+    "UI/...
+2026-02-01 19:43:38,439 - app.services.extraction_service - INFO - Job extraction completed in 4.82 seconds
+2026-02-01 19:43:48,300 - app.api.v1.routes - INFO - Processing extraction request for 11 chars of HTML
+2026-02-01 19:43:48,301 - app.services.extraction_service - INFO - Starting job information extraction
+2026-02-01 19:43:48,303 - app.utils.html_cleaner - WARNING - Extracted text too short or empty
+2026-02-01 19:43:53,094 - app.services.gemini_service - ERROR - Failed to parse Gemini response as JSON: {
+"job_title": "UI/UX Designer",
+"company": "Engineersahab",
+"location": "Indore",
+"skills": [
+"UI/U...
+2026-02-01 19:43:53,095 - app.services.extraction_service - INFO - Job extraction completed in 4.79 seconds
+2026-02-01 19:43:53,099 - app.api.v1.routes - INFO - Processing extraction request for 11 chars of HTML
+2026-02-01 19:43:53,099 - app.services.extraction_service - INFO - Starting job information extraction
+2026-02-01 19:43:53,100 - app.utils.html_cleaner - WARNING - Extracted text too short or empty
+2026-02-01 19:43:57,891 - app.services.gemini_service - ERROR - Failed to parse Gemini response as JSON: {
+"job_title": "Product/ Interaction / UI/UX Designer",
+"company": "Fluent Health",
+"location": null...
+2026-02-01 19:43:57,892 - app.services.extraction_service - INFO - Job extraction completed in 4.79 seconds
+2026-02-01 19:44:04,497 - app.api.v1.routes - INFO - Processing extraction request for 11 chars of HTML
+2026-02-01 19:44:04,498 - app.services.extraction_service - INFO - Starting job information extraction
+2026-02-01 19:44:04,499 - app.utils.html_cleaner - WARNING - Extracted text too short or empty
+2026-02-01 19:44:09,331 - app.services.gemini_service - ERROR - Failed to parse Gemini response as JSON: {
+  "job_title": "UI/UX Designer",
+  "company": "TechStaunch Software Solutions Pvt. Ltd.",
+  "locat...
+2026-02-01 19:44:09,332 - app.services.extraction_service - INFO - Job extraction completed in 4.83 seconds
+2026-02-01 19:47:04,603 - app.main - INFO - Shutting down AI Extraction Service
+2026-02-01 19:47:04,606 - app.services.extraction_service - INFO - Extraction service cleaned up
+2026-02-01 19:47:06,242 - app.core.logging - INFO - Logging configured with level: INFO
+2026-02-01 19:47:06,244 - app.main - INFO - Starting Hireoo AI Extraction Service
+2026-02-01 19:47:06,244 - app.services.extraction_service - INFO - Initializing extraction service...
+2026-02-01 19:47:06,244 - app.services.gemini_service - INFO - Gemini service initialized with model: gemini-flash-latest
+2026-02-01 19:47:06,244 - app.services.extraction_service - INFO - Extraction service initialized
+2026-02-01 19:47:06,244 - app.main - INFO - AI Extraction Service started successfully
+2026-02-01 19:47:16,142 - app.main - INFO - Shutting down AI Extraction Service
+2026-02-01 19:47:16,143 - app.services.extraction_service - INFO - Extraction service cleaned up
+2026-02-01 19:47:16,847 - app.core.logging - INFO - Logging configured with level: INFO
+2026-02-01 19:47:16,849 - app.main - INFO - Starting Hireoo AI Extraction Service
+2026-02-01 19:47:16,849 - app.services.extraction_service - INFO - Initializing extraction service...
+2026-02-01 19:47:16,849 - app.services.gemini_service - INFO - Gemini service initialized with model: gemini-flash-latest
+2026-02-01 19:47:16,849 - app.services.extraction_service - INFO - Extraction service initialized
+2026-02-01 19:47:16,849 - app.main - INFO - AI Extraction Service started successfully
+2026-02-01 19:47:18,975 - app.main - INFO - Shutting down AI Extraction Service
+2026-02-01 19:47:18,975 - app.services.extraction_service - INFO - Extraction service cleaned up
+2026-02-01 19:47:19,543 - app.core.logging - INFO - Logging configured with level: INFO
+2026-02-01 19:47:19,545 - app.main - INFO - Starting Hireoo AI Extraction Service
+2026-02-01 19:47:19,545 - app.services.extraction_service - INFO - Initializing extraction service...
+2026-02-01 19:47:19,545 - app.services.gemini_service - INFO - Gemini service initialized with model: gemini-flash-latest
+2026-02-01 19:47:19,545 - app.services.extraction_service - INFO - Extraction service initialized
+2026-02-01 19:47:19,545 - app.main - INFO - AI Extraction Service started successfully
+2026-02-01 19:48:45,741 - app.api.v1.routes - INFO - Processing extraction request for 11 chars of HTML
+2026-02-01 19:48:45,744 - app.services.extraction_service - INFO - Starting job information extraction
+2026-02-01 19:48:45,746 - app.utils.html_cleaner - WARNING - Extracted text too short or empty
+2026-02-01 19:48:47,769 - app.services.extraction_service - INFO - Job extraction completed in 2.02 seconds
+2026-02-01 19:48:47,812 - app.api.v1.routes - INFO - Processing extraction request for 11 chars of HTML
+2026-02-01 19:48:47,812 - app.services.extraction_service - INFO - Starting job information extraction
+2026-02-01 19:48:47,812 - app.utils.html_cleaner - WARNING - Extracted text too short or empty
+2026-02-01 19:48:49,851 - app.services.extraction_service - INFO - Job extraction completed in 2.04 seconds
+2026-02-01 19:48:49,859 - app.api.v1.routes - INFO - Processing extraction request for 11 chars of HTML
+2026-02-01 19:48:49,859 - app.services.extraction_service - INFO - Starting job information extraction
+2026-02-01 19:48:49,860 - app.utils.html_cleaner - WARNING - Extracted text too short or empty
+2026-02-01 19:48:51,796 - app.services.extraction_service - INFO - Job extraction completed in 1.94 seconds
+2026-02-01 19:48:51,806 - app.api.v1.routes - INFO - Processing extraction request for 11 chars of HTML
+2026-02-01 19:48:51,806 - app.services.extraction_service - INFO - Starting job information extraction
+2026-02-01 19:48:51,807 - app.utils.html_cleaner - WARNING - Extracted text too short or empty
+2026-02-01 19:48:53,536 - app.services.extraction_service - INFO - Job extraction completed in 1.73 seconds
+2026-02-01 19:48:53,569 - app.api.v1.routes - INFO - Processing extraction request for 11 chars of HTML
+2026-02-01 19:48:53,569 - app.services.extraction_service - INFO - Starting job information extraction
+2026-02-01 19:48:53,569 - app.utils.html_cleaner - WARNING - Extracted text too short or empty
+2026-02-01 19:48:55,294 - app.services.extraction_service - INFO - Job extraction completed in 1.72 seconds
+2026-02-01 19:50:09,261 - app.api.v1.routes - INFO - Processing extraction request for 11 chars of HTML
+2026-02-01 19:50:09,263 - app.services.extraction_service - INFO - Starting job information extraction
+2026-02-01 19:50:09,264 - app.utils.html_cleaner - WARNING - Extracted text too short or empty
+2026-02-01 19:50:14,857 - app.services.gemini_service - ERROR - Failed to parse Gemini response as JSON: {
+  "job_title": "UI/UX Designer",
+  "company": "Hyperthinksys",
+  "location": "Qatar",
+  "skills": ...
+2026-02-01 19:50:14,872 - app.services.extraction_service - INFO - Job extraction completed in 5.61 seconds
+2026-02-01 19:50:15,598 - app.api.v1.routes - INFO - Processing extraction request for 11 chars of HTML
+2026-02-01 19:50:15,600 - app.services.extraction_service - INFO - Starting job information extraction
+2026-02-01 19:50:15,601 - app.utils.html_cleaner - WARNING - Extracted text too short or empty
+2026-02-01 19:50:15,959 - app.services.gemini_service - ERROR - Gemini extraction failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 44.231355099s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 44
+}
+]
+2026-02-01 19:50:15,960 - app.services.extraction_service - INFO - Job extraction completed in 0.36 seconds
+2026-02-01 19:50:29,982 - app.api.v1.routes - INFO - Processing extraction request for 11 chars of HTML
+2026-02-01 19:50:29,985 - app.services.extraction_service - INFO - Starting job information extraction
+2026-02-01 19:50:29,988 - app.utils.html_cleaner - WARNING - Extracted text too short or empty
+2026-02-01 19:50:30,349 - app.services.gemini_service - ERROR - Gemini extraction failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 29.830447536s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 29
+}
+]
+2026-02-01 19:50:30,350 - app.services.extraction_service - INFO - Job extraction completed in 0.37 seconds
+2026-02-01 19:50:40,990 - app.api.v1.routes - INFO - Processing extraction request for 11 chars of HTML
+2026-02-01 19:50:40,992 - app.services.extraction_service - INFO - Starting job information extraction
+2026-02-01 19:50:40,993 - app.utils.html_cleaner - WARNING - Extracted text too short or empty
+2026-02-01 19:50:41,343 - app.services.gemini_service - ERROR - Gemini extraction failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 18.838399334s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 18
+}
+]
+2026-02-01 19:50:41,344 - app.services.extraction_service - INFO - Job extraction completed in 0.35 seconds
+2026-02-01 19:50:42,003 - app.api.v1.routes - INFO - Processing extraction request for 11 chars of HTML
+2026-02-01 19:50:42,003 - app.services.extraction_service - INFO - Starting job information extraction
+2026-02-01 19:50:42,004 - app.utils.html_cleaner - WARNING - Extracted text too short or empty
+2026-02-01 19:50:42,358 - app.services.gemini_service - ERROR - Gemini extraction failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 17.83493527s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 17
+}
+]
+2026-02-01 19:50:42,358 - app.services.extraction_service - INFO - Job extraction completed in 0.35 seconds
+2026-02-01 19:50:53,461 - app.api.v1.routes - INFO - Processing extraction request for 11 chars of HTML
+2026-02-01 19:50:53,463 - app.services.extraction_service - INFO - Starting job information extraction
+2026-02-01 19:50:53,464 - app.utils.html_cleaner - WARNING - Extracted text too short or empty
+2026-02-01 19:50:53,821 - app.services.gemini_service - ERROR - Gemini extraction failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 6.376104619s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 6
+}
+]
+2026-02-01 19:50:53,823 - app.services.extraction_service - INFO - Job extraction completed in 0.36 seconds
+2026-02-01 19:51:32,758 - app.api.v1.routes - INFO - Processing extraction request for 11 chars of HTML
+2026-02-01 19:51:32,760 - app.services.extraction_service - INFO - Starting job information extraction
+2026-02-01 19:51:32,761 - app.utils.html_cleaner - WARNING - Extracted text too short or empty
+2026-02-01 19:51:33,115 - app.services.gemini_service - ERROR - Gemini extraction failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 27.067173762s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 27
+}
+]
+2026-02-01 19:51:33,116 - app.services.extraction_service - INFO - Job extraction completed in 0.36 seconds
+2026-02-01 19:51:33,347 - app.api.v1.routes - INFO - Processing extraction request for 11 chars of HTML
+2026-02-01 19:51:33,347 - app.services.extraction_service - INFO - Starting job information extraction
+2026-02-01 19:51:33,348 - app.utils.html_cleaner - WARNING - Extracted text too short or empty
+2026-02-01 19:51:33,704 - app.services.gemini_service - ERROR - Gemini extraction failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 26.47611122s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 26
+}
+]
+2026-02-01 19:51:33,704 - app.services.extraction_service - INFO - Job extraction completed in 0.36 seconds
+2026-02-01 20:54:46,219 - app.main - INFO - Shutting down AI Extraction Service
+2026-02-01 20:54:46,231 - app.services.extraction_service - INFO - Extraction service cleaned up
+2026-02-01 20:54:47,526 - app.core.logging - INFO - Logging configured with level: INFO
+2026-02-01 20:54:47,528 - app.main - INFO - Starting Hireoo AI Extraction Service
+2026-02-01 20:54:47,528 - app.services.extraction_service - INFO - Initializing extraction service...
+2026-02-01 20:54:47,529 - app.services.gemini_service - INFO - Gemini service initialized with model: gemini-flash-latest
+2026-02-01 20:54:47,529 - app.services.extraction_service - INFO - Extraction service initialized
+2026-02-01 20:54:47,529 - app.main - INFO - AI Extraction Service started successfully
